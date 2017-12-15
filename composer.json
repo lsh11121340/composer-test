@@ -1,0 +1,9 @@
+{
+	"name":"lsh11121340/testObject",
+    "autoload":{
+    	"psr-4": {"testObject\\": "src/"}
+    },
+    "require": {
+        "monolog/monolog": "1.*"
+    }
+}
