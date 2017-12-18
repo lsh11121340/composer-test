@@ -9,7 +9,8 @@ class ComposerStaticInitc93d76fcaa9f2d083c18df51f6075608
     public static $prefixLengthsPsr4 = array (
         'l' => 
         array (
-            'lsh11121340\\' => 12,
+            'loadclass\\user\\' => 15,
+            'loadclass\\factory\\' => 18,
         ),
         'P' => 
         array (
@@ -22,9 +23,13 @@ class ComposerStaticInitc93d76fcaa9f2d083c18df51f6075608
     );
 
     public static $prefixDirsPsr4 = array (
-        'lsh11121340\\' => 
+        'loadclass\\user\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/loadclass/user',
+        ),
+        'loadclass\\factory\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/loadclass/factory',
         ),
         'Psr\\Log\\' => 
         array (
