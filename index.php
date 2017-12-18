@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 use app\user\user;
 use app\factory\factory;
 //通道名字my_logger

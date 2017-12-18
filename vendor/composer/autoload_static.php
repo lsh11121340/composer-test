@@ -7,10 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitc93d76fcaa9f2d083c18df51f6075608
 {
     public static $prefixLengthsPsr4 = array (
-        'l' => 
+        'a' => 
         array (
-            'loadclass\\user\\' => 15,
-            'loadclass\\factory\\' => 18,
+            'app\\user\\' => 9,
+            'app\\factory\\' => 12,
         ),
         'P' => 
         array (
@@ -23,13 +23,13 @@ class ComposerStaticInitc93d76fcaa9f2d083c18df51f6075608
     );
 
     public static $prefixDirsPsr4 = array (
-        'loadclass\\user\\' => 
+        'app\\user\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/loadclass/user1',
+            0 => __DIR__ . '/../..' . '/loadclass/app/user',
         ),
-        'loadclass\\factory\\' => 
+        'app\\factory\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/loadclass/factory1',
+            0 => __DIR__ . '/../..' . '/loadclass/app/factory',
         ),
         'Psr\\Log\\' => 
         array (
