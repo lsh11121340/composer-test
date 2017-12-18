@@ -25,7 +25,7 @@ class ComposerStaticInitc93d76fcaa9f2d083c18df51f6075608
     public static $prefixDirsPsr4 = array (
         'loadclass\\user\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/loadclass/user',
+            0 => __DIR__ . '/../..' . '/loadclass/user1',
         ),
         'loadclass\\factory\\' => 
         array (

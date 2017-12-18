@@ -2,7 +2,7 @@
 	"name":"lsh11121340/composer-test",
     "autoload":{
     	"psr-4": {
-    		"loadclass\\user\\": "loadclass/user",
+    		"loadclass\\user\\": "loadclass/user1",
     		"loadclass\\factory\\": "loadclass/factory"
     	}
     },
