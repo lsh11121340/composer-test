@@ -1,7 +1,10 @@
 {
 	"name":"lsh11121340/composer-test",
     "autoload":{
-    	"psr-4": {"lsh11121340\\": "src/"}
+    	"psr-4": {
+    		"loadclass\\user": "loadclass/user",
+    		"loadclass\\factory": "loadclass/factory"
+    	}
     },
     "require": {
         "monolog/monolog": "1.*"
