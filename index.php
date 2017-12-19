@@ -1,7 +1,5 @@
 <?php
-require 'vendor/autoload.php';
-use app\user\user;
-use app\factory\factory;
+require './vendor/autoload.php';
 //通道名字my_logger
 $log = new Monolog\Logger('my_logger');
 $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::INFO));
@@ -9,12 +7,12 @@ $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::I
 $log->pushHandler(new Monolog\Handler\FirePHPHandler('app.log', Monolog\Logger::WARNING));
 
 $log->addWarning('哈哈');
-$log->addInfo('孔明',array('zhu ge','wo long'));
+$log->addInfo('张三',array('zhang san','10'));
 
-$user=new user();
-$factory=new factory();
+$user=new \User_app1\user();
+$factory=new \Factory_app\factory();
 echo $user->desc();
-echo "\n";
+echo "<br/>";
 echo $factory->desc();
 
 ?>

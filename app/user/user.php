@@ -1,11 +1,11 @@
 <?php
-namespace app\user;
+namespace User_app1;
 
 class user
 {
     public function desc()
     {
-        echo "this is loadclass/app/user";
+        echo "this is app-->user1";
     }
 }
 ?>
