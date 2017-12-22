@@ -1,13 +1,12 @@
 {
-	"name":"lsh11121340/composer-test",
-    "license":"MIT",
-    "autoload":{
-    	"psr-4": {
-    		"User_app1\\": "app/user/",
-    		"Factory_app\\": "app/factory/"
-    	}
-    },
     "require": {
-        "monolog/monolog": "1.*"
+        "monolog/monolog": "1.0.*"
+    },
+
+    "autoload":{
+        "psr-4": {
+            "User_app\\": "app/user/",
+            "Factory_app\\": "app/factory/"
+        }
     }
 }
